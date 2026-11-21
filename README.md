@@ -23,3 +23,6 @@ tests/      unit tests of the library (pytest, about 3 minutes on a CPU, no data
 ```
 
 All code was written in collaboration with Claude. 
+
+[![DOI](https://zenodo.org/badge/1466023501.svg)](https://doi.org/10.5281/zenodo.24408891)
+
