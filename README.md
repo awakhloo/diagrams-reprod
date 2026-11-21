@@ -1,4 +1,4 @@
-This repository contains code to reproduce the numerical results in the paper *Solution of a chaotic neural network at fixed connectivity* (2026). 
+This repository contains code to reproduce the numerical results in the paper *Solution of a chaotic neural network at fixed connectivity*. 
 
 To reproduce the figures using the results stored on the repo, run
 
