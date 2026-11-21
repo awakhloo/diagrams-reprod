@@ -9,7 +9,6 @@ python figures/make_figs2-4.py
 ```
 
 This rewrites the four PDFs (and PNG copies) in `figures/` and the plotted numbers in `figures/figure_data_*.txt`.
-With matplotlib 3.11.1 the PDFs are byte-identical to the ones in the paper apart from the creation date.
 
 The repo is organized as follows. 
 
