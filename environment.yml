@@ -1,0 +1,11 @@
+name: scs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.0
+  - scipy>=1.14
+  - matplotlib>=3.9
+  - pytest>=8
+  - pip
+# GPU runs (slurm/*.sbatch) additionally need cupy for your CUDA version, e.g.  pip install cupy-cuda12x

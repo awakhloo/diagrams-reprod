@@ -1,0 +1,11 @@
+C data: N = 10000, seed 1, T_total = 2.52e+06, B = 128; R data: 860160 kicks per site, eps = 1e-05, B = 512, tau_win = 10, sites [3273, 4762, 4880, 7130, 8515]
+
+################ fig1_examples_rc_v2_noylabel ################
+pair 334: i = 4880, j = 8515, colour #6a4fbf; C: amplitude 0.0376 at tau +4.50, RMS(sim - th) 1.07e-03, noise sd 9.84e-04; R (kick 8515, read 4880): amplitude sim 2.7712e-03 th 2.7165e-03 at tau 3.00, RMS(sim - th) 5.77e-05, noise sd 1.2e-06 (tau = 0.25) .. 2.8e-05 (tau = 10)
+pair 336 (flipped): i = 9772, j = 4880, colour #2e8b57; C: amplitude 0.0362 at tau -7.75, RMS(sim - th) 1.95e-03, noise sd 9.84e-04; R (kick 4880, read 9772): amplitude sim 1.3939e-03 th 1.3454e-03 at tau 6.00, RMS(sim - th) 2.64e-05, noise sd 1.2e-06 (tau = 0.25) .. 2.8e-05 (tau = 10)
+pair 312: i = 4762, j = 7130, colour #e8a0bf; C: amplitude 0.0577 at tau -8.50, RMS(sim - th) 2.40e-03, noise sd 9.84e-04; R (kick 7130, read 4762): amplitude sim 1.2804e-03 th 1.3353e-03 at tau 1.00, RMS(sim - th) 3.68e-05, noise sd 1.2e-06 (tau = 0.25) .. 2.8e-05 (tau = 10)
+panel C: y ticks -0.05 -0.025 0 0.025
+panel R: y ticks -0.003 -0.002 -0.001 0 0.001
+layout: right pad 0.0370 of the width; panel boxes 2.398 in (right margin = 0.5 x left); margins left 0.79 in, right 0.40 in, gap 0.81 in
+saved height 3.36 in of 3.40 (ink rows 0.06-3.34 in), full width 6.8 in
+saved figures/fig1_examples_rc_v2_noylabel.png / .pdf

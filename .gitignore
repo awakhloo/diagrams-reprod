@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+logs/
+# raw run and theory files written by the scripts; the three data files below are part of the repository
+results/*.npz
+!results/dmft_sigma2_9.npz
+!results/dense_cc_sigma2_9.npz
+!results/dense_rc_N10000_seed1_sigma2_9.npz
